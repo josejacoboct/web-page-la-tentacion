@@ -45,46 +45,113 @@ function SectionLogin() {
       >
         <Container>
             <div className="title">
-              <h3>Images</h3>
+              <h2>Pasteles</h2>
             </div>
             <Row>
               <Col md="3" sm="6">
-                <h4 className="images-title">Rounded Image</h4>
+                <h4 className="images-title">Edén de chocolate</h4>
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/uriel-soberanes.jpg")}
-                />
-                <div className="img-details">
-                  <div className="author">
-                    <img
-                      alt="..."
-                      className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/faces/joe-gardner-2.jpg")}
-                    />
-                  </div>
-                  <p>Sonia Green</p>
-                </div>
+                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
+                />                
               </Col>
-              <Col className="mr-auto ml-auto" md="2" sm="3">
-                <h4 className="images-title">Circle Image</h4>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Alemán</h4>
                 <img
                   alt="..."
-                  className="img-circle img-no-padding img-responsive"
-                  src={require("assets/img/faces/kaci-baum-2.jpg")}
-                />
-                <p className="text-center">Brigitte Bardot</p>
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/pastelAleman.jpeg")}
+                />                
               </Col>
-              <Col className="mr-auto" md="2" sm="3">
-                <h4 className="images-title">Thumbnail</h4>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Queso con fresas machacadas</h4>
+                <img
+                  height = "192px"//192px
+                  width = "300px"
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/pastelQuesoFresasMachacadas.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Queso mocha</h4>
                 <img
                   alt="..."
-                  className="img-thumbnail img-responsive"
-                  src={require("assets/img/faces/erik-lucatero-2.jpg")}
-                />
-                <p className="text-center">John Keynes</p>
-              </Col>
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/pastelQuesoMocha.jpeg")}
+                />                
+              </Col>            
             </Row>
+            <Row>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Zanahoria</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/pastelZanahoria.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Pay de manzana</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/payManzana.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Profiteroles</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/profiteroles.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Edén de chocolate</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
+                />                
+              </Col>            
+            </Row>
+            <Row>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Edén de chocolate</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Edén de chocolate</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Edén de chocolate</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
+                />                
+              </Col>
+              <Col md="3" sm="6">
+                <h4 className="images-title">Edén de chocolate</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
+                />                
+              </Col>            
+            </Row>
+            
         </Container>
       </div>{" "}
     </>
