@@ -62,7 +62,9 @@ function LandingPage() {
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="title">¿Quienes somos?</h2>
                 <h5 className="description">
-                  Somos una empresa mexicana dedicada  a crear pasteles y bla bla bla...
+                  Somos una empresa mexicana dedicados a crear pasteles y postres para deleite de nuestros clientes,
+                  utilizando productos de calidad e innovando constantemente nuestras recetas e ingredientes 
+                  para darte la mejor experiencia tanto en atención como en el consumo de nuestros productos. 
                 </h5>
                 <br />
                 <Button
