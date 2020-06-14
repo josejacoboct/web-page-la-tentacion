@@ -117,10 +117,21 @@ function ExamplesNavbar() {
               >
                 <i className="fa fa-instagram" />
                 <p className="d-lg-none">Instagram</p>
-                <label>Instagram</label>
-              </NavLink>
-             
+                <label></label>
+              </NavLink>             
             </NavItem>
+
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
+                href="https://www.facebook.com/la.tentacion.original"
+                target="_blank"
+                title="Like us on Facebook"
+              >
+                <i className="fa fa-facebook-square" />
+                <p className="d-lg-none">Facebook</p>
+              </NavLink>
+            </NavItem>            
             
           </Nav>
         </Collapse>
