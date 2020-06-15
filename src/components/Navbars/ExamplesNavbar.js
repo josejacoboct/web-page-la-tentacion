@@ -57,7 +57,7 @@ function ExamplesNavbar() {
     };
 
     window.addEventListener("scroll", updateNavbarColor);
-
+    
     return function cleanup() {
       window.removeEventListener("scroll", updateNavbarColor);
     };
@@ -100,13 +100,12 @@ function ExamplesNavbar() {
            
             <NavItem>
               <NavLink
-                href ="/productsPage"
-                target="_blank"
-              >
+                href ="/productsPage"     
+                to= "/productsPage"           
+                target="_blank"              >
                 <i className="nc-icon nc-book-bookmark" /> Productos
               </NavLink>
-            </NavItem>
-            
+            </NavItem>         
             
             <NavItem>
               <NavLink

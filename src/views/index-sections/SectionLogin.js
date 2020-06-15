@@ -16,7 +16,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React, {useState} from "react";
 
 // reactstrap components
 import {
@@ -29,18 +29,39 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
+  ButtonToolbar
 } from "reactstrap";
-
+import Drawer from 'react-drag-drawer'
+import {AddDepModal} from '../examples/AddDepModal';
+import { isConstructorDeclaration } from "typescript";
 // core components
 
 function SectionLogin() {
+
+  const showProductdetails = () => {
+    window.open('https://image.freepik.com/foto-gratis/mesa-madera-fondo-cafeteria-desenfoque-o-interior-restaurante_7188-794.jpg','self');
+  };
+
+  let state = useState();
+  state = {deps:[], addModalShow : false}
+
+  /*constructor(props){
+    super(props);
+    this.state = {deps:[], addModalShow : false}
+  }*/
+
+  //const addModalShow = false
+
+  let addModalClose =() => this.setState({addModalShow:false})
+
+
   return (
     <>
       <div
         className="section section-image section-login"
         style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")"
+          backgroundImage: "url(" + require("assets/img/fondo.jpg") + ")"
         }}
       >
         <Container>
@@ -48,13 +69,14 @@ function SectionLogin() {
               <h2>Pasteles</h2>
             </div>
             <Row>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showProductdetails}>
                 <h4 className="images-title">Edén de chocolate</h4>
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
                   src={require("assets/img/pasteles/edenChocolate.jpeg")}
                 />                
+               
               </Col>
               <Col md="3" sm="6">
                 <h4 className="images-title">Alemán</h4>
@@ -150,8 +172,7 @@ function SectionLogin() {
                   src={require("assets/img/pasteles/edenChocolate.jpeg")}
                 />                
               </Col>            
-            </Row>
-            
+            </Row>           
         </Container>
       </div>{" "}
     </>
