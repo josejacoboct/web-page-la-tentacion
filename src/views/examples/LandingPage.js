@@ -40,6 +40,7 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 import SectionCarousel from "views/index-sections/SectionCarousel";
+import SectionLogin from "views/index-sections/SectionLogin";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -54,6 +55,7 @@ function LandingPage() {
       <ExamplesNavbar />
       <LandingPageHeader />  
       <SectionCarousel/>
+      <SectionLogin/>
       <div className="main">
         <div className="section text-center">
           <Container>
@@ -86,9 +88,7 @@ function LandingPage() {
                     nuestra tienda virtual.
 
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">
-                      Ver productos
-                    </Button>
+                    
                   </div>
                 </div>
               </Col>
@@ -116,60 +116,7 @@ function LandingPage() {
               </Col>
             </Row>
           </Container>
-        </div>
-        <div className="section section-dark text-center">
-          <Container>
-          <Row>
-              <Col className="ml-auto mr-auto" md="12">
-                <h2 className="text-center">¿Tienes alguna duda?</h2>
-                <h3 className="text-center">Mándanos tus dudas, comentarios o quejas mediante este formulario,
-                 será un gusto atenderte</h3>
-                <Form className="contact-form">
-                  <Row>
-                    <Col md="6">
-                      <label>Nombre</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="Nombre completo" type="text" />
-                      </InputGroup>
-                    </Col>
-                    <Col md="6">
-                      <label>Correo electrónico</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
-                          </InputGroupText>
-                        </InputGroupAddon>
-                        <Input placeholder="ejemplo@micorreo.com" type="text" />
-                      </InputGroup>
-                    </Col>
-                  </Row>
-                  <label>Tu mensaje</label>
-                  <Input
-                    placeholder="Cuentanos... ¿Cómo podemos ayudarte?"
-                    type="textarea"
-                    rows="4"
-                  />
-                  <Row>
-                    <Col className="ml-auto mr-auto" md="2">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Enviar
-                      </Button>
-                    </Col>
-                  </Row>
-                </Form>
-              </Col>
-              <span className="copyright">
-              © {new Date().getFullYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
-            </span>
-            </Row>
-          </Container>
+          <DemoFooter/>
         </div>
       </div>
     </>

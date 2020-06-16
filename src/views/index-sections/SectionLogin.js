@@ -129,50 +129,8 @@ function SectionLogin() {
                   className="img-rounded img-responsive"
                   src={require("assets/img/pasteles/profiteroles.jpeg")}
                 />                
-              </Col>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Edén de chocolate</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
-                />                
-              </Col>            
+              </Col>         
             </Row>
-            <Row>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Edén de chocolate</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
-                />                
-              </Col>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Edén de chocolate</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
-                />                
-              </Col>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Edén de chocolate</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
-                />                
-              </Col>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Edén de chocolate</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/pasteles/edenChocolate.jpeg")}
-                />                
-              </Col>            
-            </Row>           
         </Container>
       </div>{" "}
     </>
