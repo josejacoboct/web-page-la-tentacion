@@ -61,11 +61,12 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">¿Quienes somos?</h2>
+                <h2 className="title">¿Quiénes somos?</h2>
                 <h5 className="description">
-                  Somos una empresa mexicana dedicados a crear pasteles y postres para deleite de nuestros clientes,
-                  utilizando productos de calidad e innovando constantemente nuestras recetas e ingredientes 
-                  para darte la mejor experiencia tanto en atención como en el consumo de nuestros productos. 
+                Somos una empresa mexicana dedicada a la elaboración de múltiples postres para el deleite de todos
+                nuestros clientes. Utilizamos ingredientes de alta calidad e innovamos constantemente nuestro acervo 
+                de recetas para brindarte la mejor experiencia en cada mordida. Además nos mantenemos al tanto de tus
+                dudas y sugerencias para proporcionarte la atención ideal.
                 </h5>
                 <br />
               </Col>
@@ -82,13 +83,10 @@ function LandingPage() {
                     <h4 className="info-title">¡Verifica nuestros productos!</h4>
                     <br></br>
                     <p className="description">
-                    Puedes revisar la galería fotográfica de nuestros productos y 
-                    saber exactamente qué puedes esperar de tu compra, ver los ingredientes empleados y, 
-                    si deseas cambiar alguno u optar por versiones veganas, puedes hacérnoslo saber en 
-                    nuestra tienda virtual.
-
-                    </p>
-                    
+                    Puedes revisar la galería fotográfica con nuestros productos 
+                    y descripciones de los mismos para hacerte una idea de lo que
+                    puedes esperar de tu compra.
+                    </p>                    
                   </div>
                 </div>
               </Col>
@@ -98,12 +96,16 @@ function LandingPage() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">¡Sorprendete con nuestras ideas!</h4>
+                    <h4 className="info-title">¡Sorpréndete con nuestras ideas!</h4>
                     <br></br>
                     <p>
-                    Cada semana innovamos con nuevos sabores y postres para darte lo mejor a ti, 
-                    puedes seguirnos en nuestras redes sociales para estar al tanto de las novedades y resolver tus dudas 
-                    sobre nuestros productos y nuestro servicio.
+                    Cada semana innovamos con postres distintos ya que tenemos innumerables sabores 
+                    para complacer tu paladar. Podrás estar al tanto de dichas novedades al seguirnos a través 
+                    de redes sociales donde igualmente podremos resolver cualquier duda que tengas.
+                    Si te interesa modificar algún ingrediente del pastel que te interesa para probar una combinación
+                    diferente o si quisieras un postre libre de gluten, vegano o con sustituto de azúcar, puedes 
+                    contactarnos a través de Instagram y Facebook para realizar tu pedido especial con al menos 5
+                    días de anticipación.
                     </p>
                     <Button className="btn-link" color="info" href="https://www.facebook.com/la.tentacion.original">
                       Facebook

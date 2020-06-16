@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: image-set("logo1x.jpeg" 1x, "logo1x.jpeg" 2x);
+    background-image: image-set("logo1x.jpeg" 1x, "logo3x.jpeg" 2x, "logo3x.jpeg" 3x);
 
     .filter::after{
         background-color: rgba(0, 0, 0, 0.5);

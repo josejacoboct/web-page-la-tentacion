@@ -67,6 +67,11 @@ const items = [
     src: require("assets/img/pasteles/payManzana.jpeg"),
     altText: "Pay de manzana",
     caption: "Pay de manzana"
+  },  
+  {
+    src: require("assets/img/pasteles/pastelRedVelvet.jpeg"),
+    altText: "Pastel Red Velvet",
+    caption: "Pastel Red Velvet"
   }  
 ];
 
@@ -98,7 +103,7 @@ function SectionCarousel() {
       <div className="section pt-o" id="carousel">
         <Container>
           <Row>
-            <Col className="ml-auto mr-auto" md="10">
+            <Col className="ml-auto mr-auto" md="8">
               <Card className="page-carousel">
                 <Carousel
                   activeIndex={activeIndex}

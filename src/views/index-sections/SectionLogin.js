@@ -39,8 +39,36 @@ import { isConstructorDeclaration } from "typescript";
 
 function SectionLogin() {
 
-  const showProductdetails = () => {
-    window.open('https://image.freepik.com/foto-gratis/mesa-madera-fondo-cafeteria-desenfoque-o-interior-restaurante_7188-794.jpg','self');
+  const showEdenChocolate = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showAleman = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showQuesoFresas = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showQuesoMocha = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showZanahoria = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showPayManzana = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showProfiteroles = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+  };
+
+  const showRedVelvet = () => {
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
   };
 
   let state = useState();
@@ -69,7 +97,7 @@ function SectionLogin() {
               <h2>Pasteles</h2>
             </div>
             <Row>
-              <Col md="3" sm="6" onClick={showProductdetails}>
+              <Col md="3" sm="6" onClick={showEdenChocolate}>
                 <h4 className="images-title">Edén de chocolate</h4>
                 <img
                   alt="..."
@@ -78,7 +106,7 @@ function SectionLogin() {
                 />                
                
               </Col>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showAleman}>
                 <h4 className="images-title">Alemán</h4>
                 <img
                   alt="..."
@@ -86,7 +114,7 @@ function SectionLogin() {
                   src={require("assets/img/pasteles/pastelAleman.jpeg")}
                 />                
               </Col>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showQuesoFresas}>
                 <h4 className="images-title">Queso con fresas machacadas</h4>
                 <img
                   /*height = "192px"//192px
@@ -96,7 +124,7 @@ function SectionLogin() {
                   src={require("assets/img/pasteles/pastelQuesoFresasMachacadas.jpeg")}
                 />                
               </Col>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showQuesoMocha}>
                 <h4 className="images-title">Queso mocha</h4>
                 <img
                   alt="..."
@@ -106,7 +134,7 @@ function SectionLogin() {
               </Col>            
             </Row>
             <Row>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showZanahoria}>
                 <h4 className="images-title">Zanahoria</h4>
                 <img
                   alt="..."
@@ -114,7 +142,7 @@ function SectionLogin() {
                   src={require("assets/img/pasteles/pastelZanahoria.jpeg")}
                 />                
               </Col>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showPayManzana}>
                 <h4 className="images-title">Pay de manzana</h4>
                 <img
                   alt="..."
@@ -122,13 +150,21 @@ function SectionLogin() {
                   src={require("assets/img/pasteles/payManzana.jpeg")}
                 />                
               </Col>
-              <Col md="3" sm="6">
+              <Col md="3" sm="6" onClick={showProfiteroles}>
                 <h4 className="images-title">Profiteroles</h4>
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
                   src={require("assets/img/pasteles/profiteroles.jpeg")}
                 />                
+              </Col> 
+              <Col md="3" sm="6" onClick={showRedVelvet}>
+                <h4 className="images-title">Red Velvet</h4>
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                 src={require("assets/img/pasteles/pastelRedVelvet.jpeg")}
+                />                                            
               </Col>         
             </Row>
         </Container>
