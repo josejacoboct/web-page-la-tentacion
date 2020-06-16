@@ -89,8 +89,8 @@ function SectionLogin() {
               <Col md="3" sm="6">
                 <h4 className="images-title">Queso con fresas machacadas</h4>
                 <img
-                  height = "192px"//192px
-                  width = "300px"
+                  /*height = "192px"//192px
+                  width = "300px"*/
                   alt="..."
                   className="img-rounded img-responsive"
                   src={require("assets/img/pasteles/pastelQuesoFresasMachacadas.jpeg")}
