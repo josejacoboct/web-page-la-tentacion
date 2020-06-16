@@ -100,10 +100,9 @@ function ExamplesNavbar() {
            
             <NavItem>
               <NavLink
-                href ="/productsPage"     
-                to= "/productsPage"           
+                href ="https://canastarosa.com/stores/la-tentacion/"                
                 target="_blank"              >
-                <i className="nc-icon nc-book-bookmark" /> Productos
+                <i className="nc-icon nc-shop" /> Tienda virtual
               </NavLink>
             </NavItem>         
             
