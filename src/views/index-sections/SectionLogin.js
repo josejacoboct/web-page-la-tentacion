@@ -40,31 +40,31 @@ import { isConstructorDeclaration } from "typescript";
 function SectionLogin() {
 
   const showEdenChocolate = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion/products/eden-de-chocolate-10918198');
   };
 
   const showAleman = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-aleman-89110089​');
   };
 
   const showQuesoFresas = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion');
   };
 
   const showQuesoMocha = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion');
   };
 
   const showZanahoria = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-de-zanahoria-98181811​');
   };
 
   const showPayManzana = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion');
   };
 
   const showProfiteroles = () => {
-    window.open('https://canastarosa.com/stores/la-tentacion/products/pastel-red-velvet-88101008');
+    window.open('https://canastarosa.com/stores/la-tentacion');
   };
 
   const showRedVelvet = () => {
